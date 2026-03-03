@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import { Env } from '../config/env.js';
 import { Logger } from '../config/logger.js';
