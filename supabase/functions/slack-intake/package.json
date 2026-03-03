@@ -1,0 +1,27 @@
+{
+  "name": "slack-intake",
+  "version": "1.0.0",
+  "description": "Slack event handler for Second Brain memory capture",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "build": "deno bundle index.ts",
+    "start": "deno run --allow-net --allow-env index.ts",
+    "test": "deno test",
+    "format": "deno fmt",
+    "lint": "deno lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  },
+  "deno": {
+    "unstable": true,
+    "permissions": {
+      "net": "http://api.openai.com",
+      "env": ["SUPABASE_URL", "SUPABASE_SERVICE_ROLE_KEY", "OPENAI_API_KEY"]
+    }
+  }
+}

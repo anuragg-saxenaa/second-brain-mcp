@@ -1,0 +1,23 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+.cache/
+coverage/
+logs/
+
+# Supabase specific
+.supabase/
+supabase/migrations/*.sql
+supabase/functions/*/package-lock.json
+supabase/functions/*/node_modules/
+
+# Build artifacts
+*.tgz
+*.tar.gz
