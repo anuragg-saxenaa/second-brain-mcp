@@ -1,9 +1,11 @@
 # 🧠 Second Brain MCP Server
 
+[![CI/CD Pipeline](https://github.com/anuragg-saxenaa/second-brain-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/anuragg-saxenaa/second-brain-mcp/actions/workflows/ci.yml)
 [![GitHub release](https://img.shields.io/github/v/release/anuragg-saxenaa/second-brain-mcp)](https://github.com/anuragg-saxenaa/second-brain-mcp/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)](https://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Code Quality](https://github.com/anuragg-saxenaa/second-brain-mcp/actions/workflows/code-quality.yml/badge.svg)](https://github.com/anuragg-saxenaa/second-brain-mcp/actions/workflows/code-quality.yml)
 
 A production-grade Model Context Protocol (MCP) server that provides persistent, searchable, AI-accessible memory for Large Language Models. Built with TypeScript, Supabase, and OpenAI embeddings.
 
@@ -51,13 +53,14 @@ This project provides:
 - ✅ **Security** - Row Level Security, API key validation
 - ✅ **Testing** - Comprehensive test suite with Vitest
 - ✅ **Performance** - <50ms search @ 10K memories
+- ✅ **CI/CD** - Automated testing and deployment
 
 ### Developer Experience
 - ✅ **Interactive CLI** - Test and manage memories
 - ✅ **Hot Reload** - Fast development iteration
 - ✅ **Automated Setup** - One-command installation
 - ✅ **Multiple Deployment Options** - Docker, PM2, systemd
-- ✅ **Comprehensive Docs** - 10 guides, 20K+ words
+- ✅ **Comprehensive Docs** - 12 guides, 20K+ words
 
 ---
 
@@ -178,6 +181,7 @@ Restart Claude Desktop and test:
 - **Validation**: Zod
 - **Logging**: Winston
 - **Testing**: Vitest
+- **CI/CD**: GitHub Actions
 
 ---
 
@@ -372,7 +376,7 @@ Instead:
 
 ## 📊 Project Stats
 
-- **Files**: 38+
+- **Files**: 40+
 - **Lines of Code**: 5,500+
 - **Documentation**: 20,000+ words
 - **Test Coverage**: Comprehensive
@@ -385,7 +389,7 @@ Instead:
 ## 🗺️ Roadmap
 
 ### v1.1.0 (Next Release)
-- [ ] GitHub Actions CI/CD
+- [x] GitHub Actions CI/CD
 - [ ] Automated testing
 - [ ] Performance benchmarks
 - [ ] Docker Hub publishing
