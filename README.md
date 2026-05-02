@@ -453,3 +453,4 @@ Thanks to all contributors who help make this project better!
 **Release**: [v1.0.0](https://github.com/anuragg-saxenaa/second-brain-mcp/releases/tag/v1.0.0)
 
 **Share it with the world! 🌍**
+
